@@ -1,3 +1,4 @@
+#if ENABLE_CLOUD_SERVICES_ANALYTICS
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using UnityEngine.Networking;
 
 namespace UnityEngine.Analytics
 {
-    public class DataPrivacy : MonoBehaviour
+    public class DataPrivacy
     {
         [Serializable]
         internal struct UserPostData
@@ -53,7 +54,7 @@ namespace UnityEngine.Analytics
             public string token;
         }
 
-        const string kVersion = "2.0.0";
+        const string kVersion = "2.0.1";
         const string kVersionString = "DataPrivacyPackage/" + kVersion;
 
         internal const string kBaseUrl = "https://data-optout-service.uca.cloud.unity3d.com";
@@ -305,3 +306,4 @@ namespace UnityEngine.Analytics
         }
     }
 }
+#endif //ENABLE_CLOUD_SERVICES_ANALYTICS

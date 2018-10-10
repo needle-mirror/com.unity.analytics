@@ -1,7 +1,6 @@
 {
-    "description": "The Unity Analytics Library contains the Analytics Event Tracker component. Use the Tracker component to add both standard and custom analytics events to your game, all without writing any code.", 
+    "description": "The Unity Analytics Library contains the Analytics Event Tracker component, the Data Privacy plug-in, and the Standard Events API.", 
     "displayName": "Analytics Library", 
-    "gitHead": "c5b42b0d779352b4396d8aa70281bb3fbc418bbb", 
     "keywords": [
         "analytics", 
         "unity"
@@ -10,9 +9,10 @@
     "readme": "Unity Analytics", 
     "repoPackagePath": "build/install/com.unity.analytics", 
     "repository": {
+        "revision": "2b55e9256b23c28887d3c417f37b4f06e8b0d46a", 
         "type": "git", 
-        "url": "git@gitlab.internal.unity3d.com:upm-packages/analytics/com.unity.analytics.git"
+        "url": "git@gitlab.cds.internal.unity3d.com:upm-packages/analytics/com.unity.analytics.git"
     }, 
     "unity": "2018.3", 
-    "version": "3.1.1"
+    "version": "3.2.0"
 }

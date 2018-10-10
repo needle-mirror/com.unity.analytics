@@ -1,3 +1,4 @@
+#if ENABLE_CLOUD_SERVICES_ANALYTICS
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -47,3 +48,4 @@ namespace UnityEngine.Analytics
         }
     }
 }
+#endif //ENABLE_CLOUD_SERVICES_ANALYTICS
