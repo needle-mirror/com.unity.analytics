@@ -1,3 +1,11 @@
+## [3.2.2] - 2018-11-02
+- Removed FetchOptOutStatus and Initialize call. All application of opt out
+  status will be handled by the engine. The Analytics/Data Privacy package still
+  provides FetchPrivacyUrl to provide a URL from which to opt out.
+
+## [3.2.1] - 2018-10-25
+- Move editor and playmode tests to be packed within the package.
+
 ## [3.2.0] - 2018-10-11
 - Prevent double-registration of standard events.
 - Fixed build error on platforms that don't support analytics.

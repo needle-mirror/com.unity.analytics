@@ -1,6 +1,5 @@
 #if ENABLE_CLOUD_SERVICES_ANALYTICS
 using System;
-using UnityEngine;
 using UnityEngine.UI;
 
 namespace UnityEngine.Analytics
@@ -43,7 +42,9 @@ namespace UnityEngine.Analytics
             if (hasFocus && urlOpened)
             {
                 urlOpened = false;
-                DataPrivacy.FetchOptOutStatus();
+                // Immediately refresh the remote config so new privacy settings can be enabled
+                // as soon as possible if they have changed.
+                RemoteSettings.ForceUpdate();
             }
         }
     }
