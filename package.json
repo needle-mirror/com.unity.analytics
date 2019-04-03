@@ -1,11 +1,12 @@
 {
   "name": "com.unity.analytics",
   "dependencies": {
-    "com.unity.standardevents": "1.0.10"
+    "com.unity.standardevents": "1.0.11"
   },    
-  "version": "2.0.13",
-  "unity": "2017.3",
-  "description": "Unity Analytics",
+  "version": "2.0.14",
+  "unity": "2018.1",
+  "displayName": "Analytics Library",
+  "description": "The Unity Analytics Library contains the Analytics Event Tracker component. Use the Tracker component to add both standard and custom analytics events to your game, all wthout writing any code.",
   "keywords": [
     "analytics",
     "unity"
