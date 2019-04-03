@@ -1,9 +1,7 @@
-# Unity Analytics
+Unity Analytics: Tracker
 
-Implementation of the Unity Analytics API.
+Please visit the following URL to see documentation for the Analytics Event Tracker.
 
-## Release Notes
+https://docs.google.com/document/d/1glh4zEk0KQ_FhOgk95H-VOubcdzrVGyu5BYCmhFQCh0/edit#
 
-- Adding Readme file
-- Adding local plugin importer callbacks.
-- Removing Bintray references in package.json
+Please note, the documentation at this URL is considered a "living" document and subject to change.
