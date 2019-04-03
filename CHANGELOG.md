@@ -13,3 +13,15 @@ Merged Standardevents package into Analytics package.`
 
 [3.0.5] - 2018/05/29
 Fixing cellular signal strength incorrect array format
+
+[3.0.6] - 2018/06/01
+Reorganizing platformInfo event around session start/resume/pause
+
+[3.0.7] - 2018/07/10
+Adding in continuous events for signal strength, battery level, battery temperature, memory usage, available storage
+
+[3.0.8] - 2018/07/26
+Fixing linking issue when building Android il2cpp
+
+[3.0.9] - 2018/07/31
+Fixing issue with NullReferenceException during editor playmode

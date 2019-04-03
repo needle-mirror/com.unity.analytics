@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 900e681b1ed464740b25357aece50496
+guid: 520203c4c82e8664daa7d1b4add52c24
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -13,8 +13,8 @@ PluginImporter:
     second:
       enabled: 0
       settings:
-        Exclude Android: 0
-        Exclude Editor: 0
+        Exclude Android: 1
+        Exclude Editor: 1
         Exclude Linux: 1
         Exclude Linux64: 1
         Exclude LinuxUniversal: 1
@@ -25,7 +25,7 @@ PluginImporter:
   - first:
       Android: Android
     second:
-      enabled: 1
+      enabled: 0
       settings:
         CPU: ARMv7
   - first:
@@ -36,7 +36,7 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-      enabled: 1
+      enabled: 0
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
