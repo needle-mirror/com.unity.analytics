@@ -1,0 +1,13 @@
+{
+  "name": "com.unity.analytics",
+  "version": "0.0.3",
+  "unity": "2017.1",
+  "description": "Unity Analytics",
+  "keywords": [
+    "analytics",
+    "unity"
+  ],
+  "readme": "Unity Analytics",
+  "category": "AssetStore/Unity",
+  "publishConfig":{"registry":"https://api.bintray.com/npm/unity/unity"}
+}
