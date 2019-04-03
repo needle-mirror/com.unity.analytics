@@ -1,3 +1,10 @@
+## [3.3.2] - 2019-01-15
+- Update com.unity.ugui version dependency to new format.
+- Add explicit dll dependencies to asmdefs needed for Test Platform changes.
+
+## [3.3.1] - 2018-11-21
+- Fixed missing dependency to com.unity.ugui to package.json
+
 ## [3.3.0] - 2018-11-16
 - Removed dependency on UGUI extension in favor of new core package.
 
