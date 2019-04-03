@@ -1,13 +1,59 @@
 {
-  "name": "com.unity.analytics",
-  "version": "0.0.8",
-  "unity": "2017.1",
+  "_args": [
+    [
+      {
+        "raw": "com.unity.analytics@latest",
+        "scope": null,
+        "escapedName": "com.unity.analytics",
+        "name": "com.unity.analytics",
+        "rawSpec": "latest",
+        "spec": "latest",
+        "type": "tag"
+      },
+      ""
+    ]
+  ],
+  "_from": "com.unity.analytics@latest",
+  "_id": "com.unity.analytics@0.0.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/com.unity.analytics",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "com.unity.analytics@latest",
+    "scope": null,
+    "escapedName": "com.unity.analytics",
+    "name": "com.unity.analytics",
+    "rawSpec": "latest",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://dl.bintray.com//unity/unity/com.unity.analytics/-/com.unity.analytics-0.0.9.tgz",
+  "_shasum": "4abc8b5aad89bd6be4a8e3a3edfd00494e11f91e",
+  "_shrinkwrap": null,
+  "_spec": "com.unity.analytics@latest",
+  "_where": "",
+  "category": "AssetStore/Unity",
+  "dependencies": {},
   "description": "Unity Analytics",
+  "devDependencies": {},
+  "dist": {
+    "tarball": "http://dl.bintray.com//unity/unity/com.unity.analytics/-/com.unity.analytics-0.0.9.tgz",
+    "shasum": "4abc8b5aad89bd6be4a8e3a3edfd00494e11f91e"
+  },
   "keywords": [
     "analytics",
     "unity"
   ],
+  "name": "com.unity.analytics",
+  "optionalDependencies": {},
+  "publishConfig": {
+    "registry": "https://packages.unity.com"
+  },
   "readme": "Unity Analytics",
-  "category": "AssetStore/Unity",
-  "publishConfig":{"registry":"https://packages.unity.com"}
+  "unity": "2017.1",
+  "version": "0.0.9"
 }
