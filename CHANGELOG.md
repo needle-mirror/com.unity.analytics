@@ -1,3 +1,6 @@
+## [3.3.4] - 2019-10-16
+- Add a fix for the deprecated API build time warning on webgl platform while using Data Privacy service.
+
 ## [3.3.2] - 2019-01-15
 - Update com.unity.ugui version dependency to new format.
 - Add explicit dll dependencies to asmdefs needed for Test Platform changes.
