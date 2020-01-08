@@ -1,3 +1,6 @@
+## [3.3.5] - 2020-01-09
+- Add a fix for a regression issue introduced pertaining to the Analytics Event tracker
+
 ## [3.3.4] - 2019-10-16
 - Add a fix for the deprecated API build time warning on webgl platform while using Data Privacy service.
 
