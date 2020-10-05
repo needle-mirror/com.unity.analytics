@@ -1,3 +1,9 @@
+## [3.5.3] - 2020-10-05
+- Added a fix for the removal of CEF from the editor causing an exception when a tracker is added to a game object. 
+  The removal of CEF meant that when analytics is not enabled, and you add an analytics tracker to a game object, the library
+  required to create the "go to service menu and enable analytics" button didn't exist, and thus would throw an exception. The solution was 
+  to have a seperate class initialised on load that would override this functionality for all editors that don't have this library.
+
 ## [3.4.0] - 2019-10-16
 - Add a fix for the deprecated API build time warning on webgl platform while using Data Privacy service.
 
@@ -66,5 +72,5 @@
 ## [2.0.14] - 2018-02-08
 - Added proper documentation and better description text.
 
-## [2.0.5] -
+## [2.0.5] - 2018-01-01
 - Update analytics tracker to 2.0 (1.0 version is still available)

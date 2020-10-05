@@ -7,21 +7,10 @@ PluginImporter:
   executionOrder: {}
   defineConstraints: []
   isPreloaded: 0
-  isOverridable: 0
+  isOverridable: 1
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
-  - first:
-      '': Any
-    second:
-      enabled: 0
-      settings:
-        Exclude N3DS: 1
-        Exclude PS4: 1
-        Exclude PSP2: 1
-        Exclude Switch: 1
-        Exclude WiiU: 1
-        Exclude XboxOne: 1
   - first:
       Any: 
     second:
@@ -30,11 +19,9 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-      enabled: 1
+      enabled: 0
       settings:
-        CPU: AnyCPU
         DefaultValueInitialized: true
-        OS: AnyOS
   - first:
       Windows Store Apps: WindowsStoreApps
     second:
