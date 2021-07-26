@@ -1,3 +1,12 @@
+## [3.6.11] - 2021-07-26
+- Updated License to reflect current Unity standard.
+
+## [3.6.9] - 2021-06-04
+- Added a fix for the editor spamming autosave in some cases when editing a prefab with an Analytic Tracker component.
+- Objects containing an Analytics tracker no longer automatically marked as dirty when selected on Mac.
+- Fix for fields no longer being selectable after Unity update of Mono version.
+- Fix for ValidTRS assert firing when an Analytics tracker component is applied to an object containing a view frustrum.
+  
 ## [3.5.3] - 2020-10-05
 - Added a fix for the removal of CEF from the editor causing an exception when a tracker is added to a game object. 
   The removal of CEF meant that when analytics is not enabled, and you add an analytics tracker to a game object, the library
