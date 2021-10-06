@@ -1,3 +1,6 @@
+## [3.6.12] - 2021-10-06
+- Enabling package signing during publish.
+
 ## [3.6.11] - 2021-07-26
 - Updated License to reflect current Unity standard.
 
