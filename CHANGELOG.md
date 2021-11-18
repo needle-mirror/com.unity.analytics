@@ -1,3 +1,6 @@
+## [3.7.1] - 2021-11-18
+- Adding a dependency on com.unity.services.analytics to support future deprecation of this package.
+
 ## [3.6.12] - 2021-10-06
 - Enabling package signing during publish.
 
