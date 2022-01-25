@@ -87,10 +87,11 @@ namespace UnityEngine.Analytics
             string postJson = JsonUtility.ToJson(GetUserData());
             byte[] bytes = Encoding.UTF8.GetBytes(postJson);
             var uploadHandler = new UploadHandlerRaw(bytes);
+            var downloadHandler = new DownloadHandlerBuffer();
             uploadHandler.contentType = "application/json";
 
-            var www = UnityWebRequest.Post(kTokenUrl, "");
-            www.uploadHandler = uploadHandler;
+            UnityWebRequest www = new UnityWebRequest(kTokenUrl, "POST", downloadHandler, uploadHandler);
+
 #if !UNITY_WEBGL
             www.SetRequestHeader("User-Agent", GetUserAgent());
 #endif

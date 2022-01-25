@@ -1,3 +1,7 @@
+## [3.8.1] - 2022-01-25
+- Updating Data Privacy Plugin to use correct UnityWebRequest functionality, POST has been deprecated.
+- API Documentation correctly generated.
+
 ## [3.7.1] - 2021-11-18
 - Adding a dependency on com.unity.services.analytics to support future deprecation of this package.
 
